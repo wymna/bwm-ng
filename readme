@@ -1,0 +1,16 @@
+npm install -g @angular/cli
+ng new xxx
+git remote -v  产看远程存放位置
+git remote rm origin  
+删掉原来的  或者重新建立 
+建立一个自己的git git init
+git remote add origin https://github.com/wymna/bwm-ng.git
+git add .
+git commit -m 'inital commit'
+git push -u origin master
+https://www.cnblogs.com/quanxiaoha/p/10861849.html
+git checkout -b '分支名‘
+git branch  查看目前的分支
+angular  命令一览
+https://angular.io/cli
+https://www.kepware.com/en-us/products/kepserverex/   工业连接
