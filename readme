@@ -8,9 +8,22 @@ git remote add origin https://github.com/wymna/bwm-ng.git
 git add .
 git commit -m "initial commit"
 git push -u origin master
+git push -f origin master  强制干掉远程仓库
 https://www.cnblogs.com/quanxiaoha/p/10861849.html
+
 git checkout -b '分支名‘
 git branch  查看目前的分支
 angular  命令一览
 https://angular.io/cli
 https://www.kepware.com/en-us/products/kepserverex/   工业连接
+
+fetch与pull
+
+fetch是将远程主机的最新内容拉到本地，不进行合并
+
+git fetch origin master
+　　
+
+pull 则是将远程主机的master分支最新内容拉下来后与当前本地分支直接合并 fetch+merge
+
+git pull origin master
