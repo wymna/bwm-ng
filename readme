@@ -27,3 +27,6 @@ git fetch origin master
 pull 则是将远程主机的master分支最新内容拉下来后与当前本地分支直接合并 fetch+merge
 
 git pull origin master
+
+
+https://blog.windrunner.me/sa/lets-encrypt.html   安全加密
